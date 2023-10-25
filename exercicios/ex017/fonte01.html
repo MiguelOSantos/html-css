@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*Medidas absolutas
+            cm, mm, in//polegada, px, pt, pc
+            
+            Medidas relativas
+            em, ex, rem, vw, vh, %
+            
+            font-size: 16px;  Tamanho natural da fonte = 1em
+            Use PX e EM.
+            */
+            font-size: 16px; 
+            font-weight: normal;
+            font-style: italic;
+            /*text-decoration: underline;*/
+            /*Ligther normal bold bolder*/
+        }
+        h1{
+            
+            /*Shorthand font
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            -font-style -> font-weight -> font-siz -> font-family
+            */
+            font: italic bolder 3em 'Work Sans', sans-serif;
+
+        }
+        h2{
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui exercitationem sint voluptate vitae nihil enim voluptatum nulla veniam eum soluta, similique explicabo officiis, doloremque nesciunt neque. Iusto dolores quidem voluptate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quod unde. Eveniet quasi itaque provident placeat enim. Nisi totam neque quidem. Nemo cumque aliquid quod dolorum iure quidem ab delectus.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat omnis quasi autem praesentium quam, error enim inventore sequi voluptates unde fugit voluptate molestiae, voluptatibus, excepturi delectus maxime minima laudantium corrupti?</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum reprehenderit ducimus non neque. Modi possimus neque molestiae maxime totam nesciunt sed iusto sint? Velit possimus rerum modi recusandae eos iusto.</p>
+</body>
+</html>
